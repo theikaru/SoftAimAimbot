@@ -14,7 +14,7 @@ end)
 local Tab = Window:NewTab("ESP")
 local Section = Tab:NewSection("BOX ESP")
 
-Section:NewButton("Silent Aim", "Silent Aim And AimLock Together 200 Radius", function()
+Section:NewButton("ESP", "Box ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/theikaru/SoftAimAimbot/main/Box%20ESP"))()
 end)
 
@@ -25,7 +25,3 @@ local Section = Tab:NewSection("Credits")
 label:UpdateLabel("UI Wet#0404")
 label:UpdateLabel("Scripts Wet#0404")
 label:UpdateLabel("W")
-
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.V, function()
-	Library:ToggleUI()
-end)
