@@ -6,9 +6,8 @@ local Tab = Window:NewTab("Silent Aim")
 local Section = Tab:NewSection("200 Radius")
 
 Section:NewButton("Silent Aim", "Silent Aim And AimLock Together 200 Radius", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/theikaru/SoftAimAimbot/main/Silent%20Aim%20Aimbot%20V2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/theikaru/SoftAimAimbot/main/Silent%20Aim"))()
 end)
-
 
 
 local Tab = Window:NewTab("ESP")
@@ -17,6 +16,7 @@ local Section = Tab:NewSection("BOX ESP")
 Section:NewButton("ESP", "Box ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/theikaru/SoftAimAimbot/main/Box%20ESP"))()
 end)
+
 
 local Tab = Window:NewTab("MISC")
 local Section = Tab:NewSection("Miscellaneous")
